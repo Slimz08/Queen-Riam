@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: queen-riam
+    name: dreadbot
     runtime: docker
     dockerfilePath: ./Dockerfile
     dockerContext: .
