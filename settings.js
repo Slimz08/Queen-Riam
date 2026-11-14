@@ -1,4 +1,4 @@
-// Queen Riam - Settings
+// Dread Bot - Settings
 // All values are read from environment variables.
 // Copy .env.example to .env and fill in your details,
 // OR set them as environment variables on your hosting platform.
@@ -7,10 +7,10 @@ require('dotenv').config({ override: true });
 
 const settings = {
   // ── Bot Identity ─────────────────────────────────────────────────────────
-  botName:     process.env.BOT_NAME     || 'Queen Riam',
-  botOwner:    process.env.BOT_OWNER    || 'Hector Manuel',
-  packname:    process.env.PACK_NAME    || 'Queen Riam',
-  author:      process.env.PACK_AUTHOR  || 'Hector Manuel',
+  botName:     process.env.BOT_NAME     || 'Dreadbot',
+  botOwner:    process.env.BOT_OWNER    || 'Baby Milo',
+  packname:    process.env.PACK_NAME    || 'Dreadbot',
+  author:      process.env.PACK_AUTHOR  || 'Dread Bot',
   description: 'This is a bot for managing group commands and automating tasks.',
   version:     '1.0.0',
 
@@ -27,7 +27,7 @@ const settings = {
   // ── Auto Features ────────────────────────────────────────────────────────
   AUTO_STATUS_REACT:  process.env.AUTO_STATUS_REACT  || 'false',
   AUTO_STATUS_REPLY:  process.env.AUTO_STATUS_REPLY  || 'false',
-  AUTO_STATUS_MSG:    process.env.AUTO_STATUS_MSG     || 'Status Viewed Queen Riam',
+  AUTO_STATUS_MSG:    process.env.AUTO_STATUS_MSG     || 'Status Viewed Dread Bot',
   AUTOREAD:           process.env.AUTOREAD            || 'false',
   AUTOTYPE:           process.env.AUTOTYPE            || 'false',
   AUTORECORD:         process.env.AUTORECORD          || 'false',
