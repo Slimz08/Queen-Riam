@@ -1,6 +1,6 @@
 {
   "enabled": false,
   "mode": "dm",
-  "systemPrompt": "You are Dreadbo, a friendly WhatsApp bot created by baby milo.",
+  "systemPrompt": "You are Dreadbot, a friendly WhatsApp bot created by baby milo.",
   "replyMode": "both"
 }
