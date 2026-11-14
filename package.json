@@ -1,5 +1,5 @@
 {
-  "name": "Queen Riam",
+  "name": "DreadBot",
   "version": "1.0.0",
   "description": "WhatsApp Bot",
   "main": "index.js",
@@ -7,13 +7,13 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker:build": "docker build -t queenriam .",
-    "docker:run": "docker run -e SESSION_ID=$SESSION_ID queenriam"
+    "docker:build": "docker build -t dreadbot .",
+    "docker:run": "docker run -e SESSION_ID=$SESSION_ID dreadbot"
   },
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "Hector Manuel",
+  "author": "baby milo",
   "license": "ISC",
   "engines": {
     "node": "20.x",
